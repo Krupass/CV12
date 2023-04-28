@@ -1,0 +1,211 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\jindr\\Documents\\Škola\\Brno VUT FEKT\\Letní semestr 2023\\BPC-OOP\\Cvičení\\CV12\\CV12\\CalcApp\\CalcApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jindr\\Documents\\Škola\\Brno VUT FEKT\\Letní semestr 2023\\BPC-OOP\\Cvičení\\CV12\\CV12\\CalcApp\\CalcApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jindr\\Documents\\Škola\\Brno VUT FEKT\\Letní semestr 2023\\BPC-OOP\\Cvičení\\CV12\\CV12\\CalcApp\\CalcApp.csproj",
+        "projectName": "CalcApp",
+        "projectPath": "C:\\Users\\jindr\\Documents\\Škola\\Brno VUT FEKT\\Letní semestr 2023\\BPC-OOP\\Cvičení\\CV12\\CV12\\CalcApp\\CalcApp.csproj",
+        "packagesPath": "C:\\Users\\jindr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jindr\\Documents\\Škola\\Brno VUT FEKT\\Letní semestr 2023\\BPC-OOP\\Cvičení\\CV12\\CV12\\CalcApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jindr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\jindr\\Documents\\Škola\\Brno VUT FEKT\\Letní semestr 2023\\BPC-OOP\\Cvičení\\CV12\\CV12\\CV12\\CV12.csproj": {
+                "projectPath": "C:\\Users\\jindr\\Documents\\Škola\\Brno VUT FEKT\\Letní semestr 2023\\BPC-OOP\\Cvičení\\CV12\\CV12\\CV12\\CV12.csproj"
+              },
+              "C:\\Users\\jindr\\Documents\\Škola\\Brno VUT FEKT\\Letní semestr 2023\\BPC-OOP\\Cvičení\\CV12\\CV12\\WebApp\\WebApp.csproj": {
+                "projectPath": "C:\\Users\\jindr\\Documents\\Škola\\Brno VUT FEKT\\Letní semestr 2023\\BPC-OOP\\Cvičení\\CV12\\CV12\\WebApp\\WebApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jindr\\Documents\\Škola\\Brno VUT FEKT\\Letní semestr 2023\\BPC-OOP\\Cvičení\\CV12\\CV12\\CV12\\CV12.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jindr\\Documents\\Škola\\Brno VUT FEKT\\Letní semestr 2023\\BPC-OOP\\Cvičení\\CV12\\CV12\\CV12\\CV12.csproj",
+        "projectName": "CV12",
+        "projectPath": "C:\\Users\\jindr\\Documents\\Škola\\Brno VUT FEKT\\Letní semestr 2023\\BPC-OOP\\Cvičení\\CV12\\CV12\\CV12\\CV12.csproj",
+        "packagesPath": "C:\\Users\\jindr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jindr\\Documents\\Škola\\Brno VUT FEKT\\Letní semestr 2023\\BPC-OOP\\Cvičení\\CV12\\CV12\\CV12\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jindr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jindr\\Documents\\Škola\\Brno VUT FEKT\\Letní semestr 2023\\BPC-OOP\\Cvičení\\CV12\\CV12\\WebApp\\WebApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jindr\\Documents\\Škola\\Brno VUT FEKT\\Letní semestr 2023\\BPC-OOP\\Cvičení\\CV12\\CV12\\WebApp\\WebApp.csproj",
+        "projectName": "WebApp",
+        "projectPath": "C:\\Users\\jindr\\Documents\\Škola\\Brno VUT FEKT\\Letní semestr 2023\\BPC-OOP\\Cvičení\\CV12\\CV12\\WebApp\\WebApp.csproj",
+        "packagesPath": "C:\\Users\\jindr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jindr\\Documents\\Škola\\Brno VUT FEKT\\Letní semestr 2023\\BPC-OOP\\Cvičení\\CV12\\CV12\\WebApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jindr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\jindr\\Documents\\Škola\\Brno VUT FEKT\\Letní semestr 2023\\BPC-OOP\\Cvičení\\CV12\\CV12\\CV12\\CV12.csproj": {
+                "projectPath": "C:\\Users\\jindr\\Documents\\Škola\\Brno VUT FEKT\\Letní semestr 2023\\BPC-OOP\\Cvičení\\CV12\\CV12\\CV12\\CV12.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

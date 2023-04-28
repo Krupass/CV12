@@ -1,0 +1,51 @@
+# Visual Studio cache files
+*.user
+*.vspscc
+*.vssscc
+*.suo
+*.ncb
+*.bak
+*.log
+*.~*
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+build/
+bin/
+
+# NuGet Packages
+*.nupkg
+packages/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Files and directories to ignore
+*.sln.docstates
+[Tt]humbs.db
+*.DS_Store
+*.dbmdl
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.vspx
+*.userprefs
+*.vstemplate

@@ -1,0 +1,30 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<form asp-page-handler="Calculate" method="post">
+    <table>
+        <tr>
+            <td>Operand 1: </td>
+            <td><input asp-for="CalcModel.Operand1" /></td>
+        </tr>
+        <tr>
+            <td>Operace: </td>
+            <td>
+                <select asp-for="CalcModel.Operation"
+                        asp-items="Model.OperationList"></select>
+            </td>
+        </tr>
+        <tr>
+            <td>Operand 2: </td>
+            <td><input asp-for="CalcModel.Operand2" /></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button>Calculate</button></td>
+        </tr>
+    </table>
+</form>
+<div>Vysledek: @ViewData["ResultValue"]</div>
